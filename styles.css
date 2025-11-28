@@ -4,6 +4,7 @@ html {
 }
 
 :root {
+    /* custom property for mobile view */
     --alert-color: rgb(29, 29, 97);
     --accent-color: rgb(136, 82, 46);
     --bg-color: rgb(227, 237, 243);
@@ -44,6 +45,7 @@ body {
     font-family: var(--font-main);
 }
 
+/* CSS property on nav menu */
 nav ul {
     display: flex;
     flex-direction: column;
@@ -70,6 +72,7 @@ nav a:hover {
     background-color: var(--alert-color);
 }
 
+/* CSS property on CTA button */
 .button {
     font-size: var(--font-size-button);
     border: 1px var(--alert-color);
@@ -89,6 +92,7 @@ nav a:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+/* CSS property on mission section */
 #mission {
     text-align: center;
 }
@@ -101,10 +105,12 @@ nav a:hover {
     display: inline-block;
 }
 
+/* sacle effect on mission section */
 #mission p:hover {
     transform: scale(1.15);
 }
 
+/* CSS property on hero section */
 #hero {
     background-color: var(--accent-color);
     text-align: center;
@@ -123,6 +129,7 @@ h2 {
     font-family: var(--font-heading);
 }
 
+/* CSS property on about section */
 #about {
     max-width: var(--text-max-width);
     line-height: var(--line-height);
@@ -134,6 +141,7 @@ h2 {
     margin: 40px auto;
 }
 
+/* other basic elements */
 a {
     color: var(--alert-color);
     font-weight: bold;
@@ -202,7 +210,7 @@ a img {
     transition: transform 1s ease;
     transform-origin: 50% 55%;
 }
-
+/* animation on skills icons */
 .skill-item:hover span {
     transform: rotateX(180deg);
 }
@@ -249,6 +257,7 @@ a img {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
     }
 
+    /* responsive webpage with alternative properties on tablet */
     nav ul {
         justify-content: center;
         gap: 26px;
@@ -315,6 +324,7 @@ a img {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
     }
 
+     /* responsive webpage with alternative properties on desktop */
     nav ul {
         justify-content: center;
         gap: 30px;
